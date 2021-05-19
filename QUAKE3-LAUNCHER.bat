@@ -2,6 +2,8 @@
 CLS
 COLOR 4E
 
+cd bin\
+
 FOR /F "tokens=* USEBACKQ" %%F IN (`findstr /C:"seta name" %APPDATA%\Quake3\baseq3\q3config.cfg`) DO (
     SET name_cmd=%%F
 )

@@ -1,9 +1,9 @@
 *.dll
 *.exe
-baseq3/*.pk3
-baseq3/*.txt
-baseq3/*.zip
-baseq3/server.cfg
-baseq3/vm
+bin/baseq3/*.pk3
+bin/baseq3/*.txt
+bin/baseq3/*.zip
+bin/baseq3/server.cfg
+bin/baseq3/vm
 *_DISABLED
-missionpack/
+bin/missionpack/
